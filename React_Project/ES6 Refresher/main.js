@@ -95,3 +95,11 @@
 
 // const customer1 = new Customer('Kevin', 32, 300);
 // console.log(customer1.info());
+
+//MODULES
+
+//file 1 (file1.js)
+export const name = 'Jeff';
+
+//file 2 (file2.js)
+import { name } from '';
