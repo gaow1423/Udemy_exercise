@@ -98,8 +98,12 @@
 
 //MODULES
 
-//file 1 (file1.js)
-export const name = 'Jeff';
+// //file 1 (file1.js)
+// export const name = 'Jeff';
+// export const nums = [1, 2, 3];
 
-//file 2 (file2.js)
-import { name } from '';
+// //file 2 (file2.js)
+// import { name } from './file1';
+// import default Person from './file1';
+
+// console.log(name);
