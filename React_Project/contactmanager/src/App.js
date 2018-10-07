@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Contact from './components/Contact';
+import Contacts from './components/Contacts';
 import Header from './components/Header';
 
 class App extends Component {
@@ -36,7 +36,7 @@ class App extends Component {
       <div className="App">
         <Header branding="Contact Manager" />
         <div className="container">
-          <Contact
+          {/* <Contact
             name="John Doe"
             email="jdoe@gmail.com"
             phone="555-555-5555"
@@ -44,8 +44,9 @@ class App extends Component {
           <Contact
             name="Wei Gao"
             email="gaow1423@gmail.com"
-            phone="555-555-5555"
-          />
+            phone="555-555-2223"
+          /> */}
+          <Contacts />
         </div>
       </div>
     );
